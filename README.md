@@ -7,7 +7,7 @@ Este proyecto es una demostracion de un sistema CRUD utilizando las mejores prac
 ```sh
 npm install
 
-mysql -u root < ./migrations/01-movies-202007131726.sql
+mysql -u root < ./database/migrations/01-movies-202007131726.sql
 
 npm start
 ```
